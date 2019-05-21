@@ -1,13 +1,14 @@
 def reverse_each_word(sentence1)
    string1 = sentence1.split(" ")
-   array = []
-   string1.each do |item|
-     array.push(item.reverse)
-     string1.collect
+   array = string1.collect
+   puts array
+   #string1.each do |item|
+    # array.push(item.reverse)
+    # string1.collect
      
-   end
+   #end
    
-   array.join(" ")
+   #array.join(" ")
    
 end
    
