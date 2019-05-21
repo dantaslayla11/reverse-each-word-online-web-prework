@@ -5,6 +5,7 @@ def reverse_each_word(sentence1)
      array.push(item.reverse)
    end
    array.join(" ")
+   string1.collect
 end
    
   
