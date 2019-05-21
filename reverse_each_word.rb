@@ -1,15 +1,8 @@
 def reverse_each_word(sentence1)
    string1 = sentence1.split(" ")
-   array = string1.collect {|item| item.reverse}
+   #["olleh", ",ereht", "dna", "woh", "are", "you?"]
+   array = string1.collect {|fuck| fuck.reverse}
    array.join(" ")  
-   #string1.each do |item|
-    # array.push(item.reverse)
-    # string1.collect
-     
-   #end
-   
-   #array.join(" ")
-   
 end
    
   
